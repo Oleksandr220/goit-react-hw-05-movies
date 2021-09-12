@@ -1,0 +1,17 @@
+.trend__movies-list {
+  list-style: none;
+}
+
+.trend__movies-item {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.trend__movies-link {
+  text-decoration: none;
+  color: rgb(68, 48, 48);
+
+  &:hover {
+    color: rgb(173, 173, 244);
+  }
+}
