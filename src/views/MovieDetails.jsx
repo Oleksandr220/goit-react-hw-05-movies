@@ -36,6 +36,9 @@ export default function MovieDetails() {
   }, [movieId]);
 
   const onGoBack = () => {
+    if (location?.state?.search) {
+      return history.push(`?query=${location?.state?.search}`);
+    }
     history.push(location?.state?.from);
   };
 
